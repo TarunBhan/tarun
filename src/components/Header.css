@@ -1,0 +1,13 @@
+.correct {
+  font-weight: bold;
+  color:green;
+  /* background-color: rgb(148, 148, 255); */
+}
+.incorrect{
+  font-weight: bold;
+  color:red;
+ 
+}
+.active{
+  font-weight: bold;
+}
