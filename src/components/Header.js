@@ -59,7 +59,7 @@ function processInput(value)
   }
   if(value.endsWith(' '))
   { //the user finished the word
-    if(activeIndex==cloud.current.length-1)
+    if(activeIndex === cloud.current.length-1)
     {
       //overflow 
       setInputValue('Completed')
@@ -84,7 +84,7 @@ function processInput(value)
   }
 }
   return (
-    <div>
+    <div className="box">
       <h1>Typing Test </h1>
     <Timer
     startCounting={startCounting} 
@@ -99,7 +99,8 @@ function processInput(value)
         />
 
       })} </p>
-    <input value={inputValue} onChange={(e) => processInput(e.target.value)}/>
+   <div className="i"> <input placeholder="Type here something" className="ip" value={inputValue} onChange={(e) => processInput(e.target.value)}/>
+   </div>
     
     </div>
   );

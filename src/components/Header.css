@@ -11,3 +11,25 @@
 .active{
   font-weight: bold;
 }
+.box{
+ border-style:1px solid green ;
+
+}
+div{
+  padding: 30px;
+ 
+}
+h1{
+  text-align:center;
+}
+.ip{
+ text-align:center;
+background-color: rgb(223, 233, 179);
+ height: 5vh;
+ color: rgb(0, 0, 0);
+ width: 25vh;
+ 
+}
+.i{
+  text-align:center;
+} 
