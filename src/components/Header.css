@@ -21,6 +21,11 @@ div{
 }
 h1{
   text-align:center;
+  font-family: Times New Roman, serif;
+        
+        color: rgb(45, 243, 250);
+        /* background: linear-gradient( #dcdde9, #1b999c); */
+        text-shadow: 0.041em 0.041em #cdcdcd;
 }
 .ip{
  text-align:center;
