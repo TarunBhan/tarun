@@ -52,7 +52,7 @@ const [activeIndex,setactiveIndex]= useState(0)
  const [correctWordArray,setcorrectWordArray]= useState([])
   
 function processInput(value)
-{
+{ 
   if(!startCounting)
   {
     setStartCounting(true)
